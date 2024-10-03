@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Index</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Danielly Reis" />
+	<meta name="keywords" content="gringa, eua, fora do brasil, roupa" />
+	<meta name="description" content="roupas que estão na moda nos eua"/>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<section>
+		
+		<nav>
+			<a href="#"> HOME </a>
+			<a href="#"> SOBRE </a>
+			<a href="#pag-produtos"> PRODUTOS </a>
+			<a href="#pag-encomenda"> ENCOMENDAS</a>
+		</nav>
+
+		<header id="cima">
+			<img id="banner" src="midia/banner.png" alt="banner com fundo cor de pessego, desenhor de corpo de mulheres no centro e nas laterais, detalhes com estrelas e linhas"/> 
+		</header>
+
+		<main>
+			<section id="box-main1">
+				<h1>MODA GRINGA</h1>
+			</section>
+			<section id="text">
+				<p>Sabe aquelas roupas incriveis que vemos nos na tv, nas redes socias e principalmente no pinterest, e você nunca acha ela pelos lojas do shopping da sua cidade?!</p> <p> Nós da <b>Moda Griga</b> fizemos esse site pensando em você que ama roupas de fora do Brasil.</p>	
+				<p>Todo mês nos viajamos para fora e trazemos para cá os melhores looks que esta na moda la fora, que vão fazer vocês se sentirem ainda mais estilosas(os).</p>
+			</section>
+		<hr id="divisor1">
+			<section id="box-main1">
+				<h2>PRODUTOS</h2>
+			</section>	
+			<section id="text">
+				<p> Aqui vão uns exemplos das roupas que vendemos</p>
+			</section>
+				  		<div id="container">
+							<div class="card">
+							<img class="img-produtos" src="midia/lindo.png"/>
+								<div class="card.content">
+									<div class="ordem">
+									<section id="box-main2">	
+									<div class="one"><h3>Vestido Franzido</h3></div>
+									</section>
+								<section id="box-main3">
+									<div class="two"><p>R$159,99</p></div>
+								</section>
+
+								    </div>
+								</div>	
+							</div>
+							
+							<div class="card">	
+				    		<img class="img-produtos" src="midia/brilhoso.png"/>
+				    			<div class="card.content">
+				    				<div class="ordem">
+				    			<section id="box-main2">
+				    				<div class="one"><h3>Conjunto Brilhoso</h3></div>
+				    			</section>
+				    			<section id="box-main3">
+				    				<div class="two"><p>R$89,99</p></div> 
+				    			</section>
+				    				</div>
+				    			</div>
+				    		</div>		
+				    		
+				    		<div class="card">
+				    		<img class="img-produtos" src="midia/conjunto.png"/>
+				    			<div class="card.content">
+				    				<div class="ordem">
+				    			<section id="box-main2">
+				    				<div class="one"><h3>Conjunto Liso</h3></div>
+				    			</section>
+				    			<section id="box-main3">
+				    				<div class="two"><p>R$59,99</p></div>
+				    			</section>
+				    				</div>
+				    			</div>
+				    		</div>
+
+				    		<div class="card">		
+				    		<img class="img-produtos" src="midia/calca.png"/>
+				    			<div class="card.content">
+				    				<div class="ordem">
+				    			<section id="box-main2">
+				    				<div class="one"><h3>Calça Moletom</h3></div>
+				    			</section>
+				    			<section id="box-main3">
+				    				<div class="two"><p>R$59,99</p></div>
+				    			</section>
+				    				</div>
+				    			</div>	
+				    		</div>	
+				  		</div>
+				  		<hr id="divisor2">
+
+			<div id="pag-encomenda">		  		
+				  	<section id="box-main1">
+						<h2>ENCOMENDAS</h2>
+					</section>
+				<section id="text">	
+				<p> Peça aqui sua peça favorita </p>
+				</section>
+				  		<form name="" method="" action=""/>	 
+						 	<label for="nome">Nome:</label>
+						 	<input id="nome" type="text" name="nome_completo" size="50" placeholder="Digite seu nome completo" required />
+
+						 	<label for="email">E-mail:</label>
+						 	<input id="email" type="email" name="email" size="50" placeholder="exemplo@gmail.com" required />
+
+						 	<label for="produtos">Produto:</label>
+						 	<select id="produtos" name="produtos">
+						 		<option value="">Selecione</option>
+						 		<option value="iniciantes">Vestido</option>
+						 		<option value="basico">Cojunto Brilhoso</option>
+						 		<option value="intermediario">Conjunto Liso</option>
+						 		<option value="avancado">Calça Moletom</option>
+						 	</select>
+
+						 	<label for="quan">Quantidade:</label>
+						 	<input id="quan" type="number" name="aquan" min="1" max="4" step="1"/>
+						 	 
+						 	 <label>Tamanho:</label>
+						 	 <select id="tamanho" name="tamanho">
+						 	 	<option value="">Selecione</option>
+						 	 	<option value="ppequeno">PP</option>
+						 		<option value="pequeno">P</option>
+						 		<option value="medio">M</option>
+						 		<option value="grande">G</option>
+						 		<option value="ggrande">GG</option>
+						 	</select>
+						<div id="lado"> 	
+						 	<fieldset>
+						 		<legend>Forma de Pagamento:</legend>
+						 		<div class="coluna">
+						 			<div class="linha1">
+							 		<input id="bol" type="radio" name="entrega" value="delv"> <label for="delv">Boleto</label>
+							 		</div>
+							 		<div class="linha2">	
+							 		<input id="cartao" type="radio" name="entrega" value="local"> <label for="loca">Cartão de Crédito</label>
+							 		</div>
+							 		<div class="linha3">	
+							 		<input id="pix" type="radio" name="entrega" value="local"> <label for="loca">PIX</label>
+							 		</div>	
+							 	</div>	
+						 	</fieldset>	
+
+						 	<fieldset id="retirada">
+						 		<legend>Forma de Retirada:</legend>
+						 		<div class="coluna">
+						 			<div class="linha1">
+							 		<input id="delv" type="radio" name="entrega" value="delv"> <label for="delv">Correios</label>
+							 		</div>
+							 		<div class="linha2">	
+							 		<input id="local" type="radio" name="entrega" value="local"> <label for="loca">Transportadora</label>
+							 		</div>
+							 		<div class="linha3">	
+							 		<input id="local" type="radio" name="entrega" value="local"> <label for="loca">No Local</label>
+							 		</div>	
+							 	</div>	
+						 	</fieldset>	
+						</div>
+						 	<label for="msg">Comentarios:</label><br/>
+						 	<textarea id="msg" cols="80" rows="4"></textarea>
+						 		<div id="botoes">
+								 	<input type="submit" name="Encomendar" value="Criar"/>
+								 	<input type="reset" name="Cancelar" value="Cancelar"/>
+								</div>
+						</form>	
+			</div>			
+		</main>
+
+		<aside>
+			<section id="box-main4">
+				<h3>PATROCINIOS</h3>
+			</section>
+				<img id="patr" src="midia/shein.png">
+				
+			<div class="saia">	
+				<img id="roupas" src="midia/saia.webp">
+				<div id="box-main5"><h3>Manta Formal</h3></div>
+				<div id="box-main6"><h3>R$ 49,99</h3></div>		
+				<img id="roupas" src="midia/simples.jpg">
+				<div id="box-main5"><h3>Slogan Desportivo</h3></div>
+				<div id="box-main6"><h3>R$ 101,95</h3></div>
+				<img id="roupas" src="midia/ocasiona.webp">
+				<div id="box-main5"><h3>Roupa Ocasiona</h3></div>
+				<div id="box-main6"><h3>R$ 59,99</h3></div>
+			</div>
+		</aside>
+
+		<footer>
+			<p>Desenvolvido por<a href="http://instagram.com/adany.reis" target="-blank">DaniellyReis</a>- 2022 </p>
+		</footer>
+		<div onclick="backToTop();" id="bt-topo">
+			<img id="topo" src="midia/seta.png" alt="voltar ao topo">
+		</div>
+	</section>
+	<script >
+		window.onscroll = function(){
+			scroll();
+		}
+		function backToTop(){
+			document.documentElement.scrollTop = 0
+		}
+	</script>
+</body>
+</html>
